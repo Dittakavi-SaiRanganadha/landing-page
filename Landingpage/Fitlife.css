@@ -1,0 +1,201 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('img/wp5559316.jpg'); /* Update the path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff; /* Ensure text is readable on the background */
+}
+
+header {
+    background-color: rgba(76, 175, 80, 0.8); /* Semi-transparent background */
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #fff;
+    padding: 0.5em;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+section {
+    padding: 2em;
+    text-align: center;
+    border-radius: 10px;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    color: #fff;
+    padding: 0.5em;
+}
+
+#why-choose ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#why-choose li {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+
+.feature {
+    margin-bottom: 2em;
+}
+
+/* Testimonials section styles */
+#testimonials {
+    text-align: center;
+    padding: 2em;
+    border-radius: 10px;
+    backdrop-filter: blur(1px); /* Apply backdrop filter for a blurred effect */
+    margin-top: 2em;
+}
+
+#testimonials h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    color: #fff; /* Text color */
+}
+
+.testimonials-container {
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+    gap: 2em; /* Gap between testimonials */
+
+    flex-wrap: wrap; /* Allow testimonials to wrap */
+}
+
+.testimonial {
+    flex: 1; /* Equal width for each testimonial */
+    max-width: 300px; /* Limit width for better layout */
+}
+
+.testimonial-content {
+    /* Semi-transparent background */
+    padding: 1em;
+    border-radius: 10px;
+    backdrop-filter: blur(5px); /* Apply backdrop filter for a blurred effect */
+    text-align: left; /* Align text to the left */
+    position: relative; /* Position for image overlay */
+}
+
+.testimonial-img {
+    width: 80px; /* Adjust size as needed */
+    height: 80px; /* Adjust size as needed */
+    border-radius: 50%; /* Rounded shape for profile photos */
+    position: absolute; /* Position relative to content */
+    top: -40px; /* Adjust to center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    border: 3px solid #fff; /* White border for contrast */
+}
+
+.testimonial-content p {
+    font-style: italic;
+    margin-top: 40px; /* Space to accommodate profile photo */
+    color: #f3f2f2; /* Text color */
+}
+
+
+
+#download a {
+    display: inline-block;
+    margin: 0.5em;
+    padding: 1em 2em;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#newsletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+#newsletter input[type="email"] {
+    padding: 0.5em;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#newsletter button {
+    padding: 0.5em 1em;
+    font-size: 1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Styles for social media links */
+#follow-us a {
+    display: inline-block;
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.25em;
+}
+
+#follow-us a i {
+    margin-right: 0.5em;
+}
+
+/* Facebook link style */
+#follow-us a.facebook {
+    background-color: #0752f3; /* Facebook blue */
+    color: white;
+}
+
+/* Twitter link style */
+#follow-us a.twitter {
+    background-color: #1DA1F2; /* Twitter blue */
+    color: white;
+}
+
+/* Instagram link style */
+#follow-us a.instagram {
+    background-color: #de1988; /* Instagram gradient */
+    color: white;
+}
+
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+    text-align: center;
+    padding: 1em 0;
+    color: #ebedf2; /* Ensure text is readable on the footer background */
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+footer a {
+    color: #fffafa;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
